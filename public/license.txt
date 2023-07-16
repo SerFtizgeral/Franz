@@ -1,0 +1,11 @@
+Model Information:
+* title:	Folio 5.5 Cellphone
+* source:	https://sketchfab.com/3d-models/folio-55-cellphone-9b0d0f4770ce474eadbbd9d655240833
+* author:	Ben (https://sketchfab.com/bbickle)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Folio 5.5 Cellphone" (https://sketchfab.com/3d-models/folio-55-cellphone-9b0d0f4770ce474eadbbd9d655240833) by Ben (https://sketchfab.com/bbickle) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
