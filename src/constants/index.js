@@ -218,7 +218,7 @@ import {
     },
     
     {
-      name: "Pos of Challenger Singaore",
+      name: "Pos of Challenger Singapore",
       description:
         "A robust and efficient Point of Sale system designed for Challenger Singapore, facilitating seamless customer transactions, inventory management, and sales reporting.",
       tags: [
