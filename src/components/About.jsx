@@ -23,7 +23,7 @@ const ServiceCard = ({index, title, icon}) => {
           scale: 1,
           speed: 450,
         }}
-        className='bg-primary rounded-[20px] py-5 px-12 min-h-[180px] flex justify-evenly items-center'
+        className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[180px] flex justify-evenly items-center'
       >
         <img
           src={icon}
