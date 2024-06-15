@@ -51,10 +51,7 @@ const About = () => {
     <motion.p 
     variants={fadeIn("","", 0.1, 1)}
     className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
-    >
-        Im a fresh graduate with a solid understanding of the fundamental principles of front-end and software development, I am eager to continue honing my skills and expanding my knowledge.
-        With a grasp of the core concepts, I can create basic but functional interfaces, focusing on usability and user experience.
-        Additionally, my foundation in software development fundamentals allows me to contribute to projects and collaborate effectively with teams.
+    >I am a fresh graduate with a solid understanding of front-end and software development principles, and experience as a technical support engineer. I excel in troubleshooting and providing excellent customer service. I can create functional interfaces focusing on usability and user experience, and my software development knowledge allows me to effectively collaborate on projects. Additionally, I have skills in multimedia design, including creating graphics, designing user interfaces, and producing multimedia content, which enables me to provide creative and comprehensive solutions.
    </motion.p>
     <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (

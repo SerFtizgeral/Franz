@@ -14,6 +14,8 @@ import {
     carrent,
     jobit,
     tripguide,
+    starbucks,
+    tesla,
     threejs,
   } from "../assets";
   
@@ -42,7 +44,7 @@ import {
       icon: mobile,
     },
     {
-      title: "Game Developer",
+      title: "Game Design",
       icon: backend,
     },
     {
@@ -56,10 +58,7 @@ import {
       name: "HTML 5",
       icon: html,
     },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
+   
     {
       name: "JavaScript",
       icon: javascript,
@@ -71,7 +70,7 @@ import {
     },
    
     {
-      name: "Tailwind CSS",
+      name: "Photoshop",
       icon: tailwind,
     },
  
@@ -112,6 +111,31 @@ import {
         "Honed skills significant skills during OJT days as a front-end developer",
         "Achieved technical skills in Web programming languages like HTML, JavaScript, CSS, Bootstrap and Code Igniter",
         "Presented high-quality code and completed the project on time."
+
+      ],
+    },
+    {
+      title: "Technical Support Engineer",
+      company_name: "Challenger Singapore",
+      icon: tesla,
+      iconBg: "#E6DEDD",
+      date: "August 2023 - November 2023",
+      points: [
+        " Proficiently managed and analyzed customer data utilizing pgAdmin, ensuring data integrity and optimal system performance. Handles customer data using pgAdmin",
+        "Swiftly resolved data and delivery system issues using the company's operations system, ensuring seamless operations and improved system stability.",
+
+      ],
+    },
+    {
+      title: "Programmer ",
+      company_name: "ChuGo PH Pte Ltd",
+      icon: starbucks,
+      iconBg: "#E6DEDD",
+      date: "August 2023 - November 2022",
+      points: [
+        "Collaborated with the team to address and rectify identified issues on the company's online shopping website/system.",
+        "Diagnosed and resolved bugs within the Point of Sale (POS) system, playing a pivotal role in elevating system efficiency.",
+
 
       ],
     },
@@ -162,6 +186,10 @@ import {
           name: "GDScript",
           color: "pink-text-gradient",
         },
+        {
+          name: "Photoshop",
+          color: "pink-text-gradient",
+        },
       ],
       image: carrent,
       source_code_link: "",
@@ -187,20 +215,18 @@ import {
       image: jobit,
       source_code_link: "",
     },
+    
     {
-      name: "The Quiz Master",
+      name: "Pos of Challenger Singaore",
       description:
-        "An android quiz app .",
+        "A robust and efficient Point of Sale system designed for Challenger Singapore, facilitating seamless customer transactions, inventory management, and sales reporting.",
       tags: [
      
         {
-          name: "Android Studio",
+          name: "Laravel",
           color: "green-text-gradient",
         },
-        {
-          name: "Java",
-          color: "pink-text-gradient",
-        },
+      
       ],
       image: tripguide,
       source_code_link: "https://github.com/",

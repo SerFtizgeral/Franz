@@ -2,6 +2,10 @@ import { motion } from 'framer-motion';
 
 import { styles } from '../styles'
 import { ComputersCanvas} from './canvas';
+import 'animate.css';
+
+
+
 const Hero = () => {
   return (
     //Background
@@ -15,10 +19,10 @@ const Hero = () => {
 
           <div>
             <h1 className={`${styles.heroHeadText}
-            text-white`}>Hi, I am <span className='text-[#815eff]'> Francis Jeeves</span></h1>
+            text-white`}>Hi, I am <span className='relative text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 animate-reveal'> Francis Jeeves</span></h1>
             <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             As a degree holder of BS in Computer Science with
-            experience in <span className='text-[#815eff]'> Front-end</span>,<span className='text-[#815eff]'> Software Development</span> and <span className='text-[#815eff]'> Game Design</span>, <br className='sm:block hidden'/>I am a quick learner and interested in new
+            experience in <span className='text-[#815eff]'> Front-end</span>,<span className='text-[#815eff]'> Software Development</span> and <span className='text-[#815eff]'> Graphic Design</span>, <br className='sm:block hidden'/>I am a quick learner and interested in new
             systems and technologies. I am now seeking a new
             challenge and job opportunity where I can apply my
             skills and continue to learn and grow. With a passion
