@@ -14,6 +14,9 @@ import {
     carrent,
     jobit,
     tripguide,
+    tile,
+    wednesday,
+    teaser,
     starbucks,
     tesla,
     threejs,
@@ -232,6 +235,46 @@ import {
       image: tripguide,
       source_code_link: "https://github.com/",
     },
+    
+  ];
+    const arts = [
+    {
+      name: "Tile",
+      tags: [   
+        {
+          name: "Photoshop #2d Art",
+          color: "green-text-gradient",
+        },
+      
+      ],
+      image: tile,
+     
+    },
+
+    {
+      name: "Wednesday",
+      tags: [   
+        {
+          name: "Photoshop",
+          color: "green-text-gradient",
+        },
+      
+      ],
+      image: wednesday,
+     
+    },
+    {
+      name: "Teaser Video",
+      tags: [   
+        {
+          name: "#Photoshop",
+          color: "green-text-gradient",
+        },
+      
+      ],
+      image: teaser,
+     
+    },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, arts, };
