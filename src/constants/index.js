@@ -14,9 +14,12 @@ import {
     carrent,
     jobit,
     tripguide,
+<<<<<<< HEAD
     tile,
     wednesday,
 
+=======
+>>>>>>> parent of 6447962 (adding image projects and adjusting the 3d)
     starbucks,
     tesla,
     threejs,
@@ -235,6 +238,7 @@ import {
       image: tripguide,
       source_code_link: "https://github.com/",
     },
+<<<<<<< HEAD
     
   ];
     const arts = [
@@ -264,6 +268,8 @@ import {
      
     },
    
+=======
+>>>>>>> parent of 6447962 (adding image projects and adjusting the 3d)
   ];
   
-  export { services, technologies, experiences, testimonials, projects, arts, };
+  export { services, technologies, experiences, testimonials, projects };
