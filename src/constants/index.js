@@ -16,7 +16,7 @@ import {
     tripguide,
     tile,
     wednesday,
-    teaser,
+
     starbucks,
     tesla,
     threejs,
@@ -263,18 +263,7 @@ import {
       image: wednesday,
      
     },
-    {
-      name: "Teaser Video",
-      tags: [   
-        {
-          name: "#Photoshop",
-          color: "green-text-gradient",
-        },
-      
-      ],
-      image: teaser,
-     
-    },
+   
   ];
   
   export { services, technologies, experiences, testimonials, projects, arts, };

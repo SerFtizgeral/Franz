@@ -31,7 +31,6 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import tile from "./tile.png";
 import wednesday from "./Wednesday.jpg";
-import teaser from "./teaser.mp4";
 
 
 
@@ -66,5 +65,5 @@ export {
   tripguide,
   tile,
   wednesday,
-  teaser,
+
 };
