@@ -11,16 +11,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Clear npm cache
-        run: npm cache clean --force
-
       - name: Checkout repo
         uses: actions/checkout@v2
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v2
+      - name: Setup Node
+        uses: actions/setup-node@v2  # Update to v2 to use Node.js 20
         with:
-          node-version: '20'
+          node-version: '20'  # Use Node.js 20
 
       - name: Install dependencies
         run: npm install
