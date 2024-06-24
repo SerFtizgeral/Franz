@@ -15,8 +15,8 @@ import {
     jobit,
     tripguide,
 
-    tile,
-    wednesday,
+
+  
     starbucks,
     tesla,
     threejs,
@@ -238,32 +238,9 @@ import {
     
   ];
     const arts = [
-    {
-      name: "Tile",
-      tags: [   
-        {
-          name: "Photoshop #2d Art",
-          color: "green-text-gradient",
-        },
-      
-      ],
-      image: tile,
-     
-    },
-
-    {
-      name: "Wednesday",
-      tags: [   
-        {
-          name: "Photoshop",
-          color: "green-text-gradient",
-        },
-      
-      ],
-      image: wednesday,
-     
-    },
    
+
+    
   ];
   
   export { services, technologies, experiences, testimonials, projects, arts };
