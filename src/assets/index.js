@@ -29,6 +29,15 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import tile from "./tile.png";
+import wednesday from "./wednesday.jpg";
+import reserv from "./reserv.jpg";
+import books from "./books.png";
+import girl from "./girl.png";
+import notice from "./notice.png";
+
+
+
 
 
 
@@ -61,6 +70,12 @@ export {
   carrent,
   jobit,
   tripguide,
+  tile,
+  wednesday,
+  reserv,
+  books,
+  girl,
+  notice,
  
 
 };

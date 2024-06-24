@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
@@ -13,18 +13,35 @@ const ProjectCard = ({
   image,
   source_code_link,
 }) => {
+  const [isFullscreen, setIsFullscreen] = useState(false);
+
   const handleImageClick = (e) => {
     const elem = e.currentTarget;
-    if (elem.requestFullscreen) {
-      elem.requestFullscreen();
-    } else if (elem.mozRequestFullScreen) { // Firefox
-      elem.mozRequestFullScreen();
-    } else if (elem.webkitRequestFullscreen) { // Chrome, Safari and Opera
-      elem.webkitRequestFullscreen();
-    } else if (elem.msRequestFullscreen) { // IE/Edge
-      elem.msRequestFullscreen();
+
+    if (!isFullscreen) {
+      if (elem.requestFullscreen) {
+        elem.requestFullscreen();
+      } else if (elem.mozRequestFullScreen) { // Firefox
+        elem.mozRequestFullScreen();
+      } else if (elem.webkitRequestFullscreen) { // Chrome, Safari and Opera
+        elem.webkitRequestFullscreen();
+      } else if (elem.msRequestFullscreen) { // IE/Edge
+        elem.msRequestFullscreen();
+      } else {
+        console.log("Fullscreen API is not supported by this browser.");
+      }
+      setIsFullscreen(true);
     } else {
-      console.log("Fullscreen API is not supported by this browser.");
+      if (document.exitFullscreen) {
+        document.exitFullscreen();
+      } else if (document.mozCancelFullScreen) { // Firefox
+        document.mozCancelFullScreen();
+      } else if (document.webkitExitFullscreen) { // Chrome, Safari and Opera
+        document.webkitExitFullscreen();
+      } else if (document.msExitFullscreen) { // IE/Edge
+        document.msExitFullscreen();
+      }
+      setIsFullscreen(false);
     }
   };
 
@@ -53,14 +70,13 @@ const ProjectCard = ({
               }}
               className='custom-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
-              
+              {/* Icon/Button for source code */}
             </div>
           </div>
         </div>
 
         <div className='mt-5'>
           <h3 className='text-white font-bold text-[24px]'>{name}</h3>
-         
         </div>
 
         <div className='mt-4 flex flex-wrap gap-2'>

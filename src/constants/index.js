@@ -14,9 +14,12 @@ import {
     carrent,
     jobit,
     tripguide,
-
-
-  
+    tile,
+    wednesday,
+    reserv,
+    books,
+    girl,
+    notice,
     starbucks,
     tesla,
     threejs,
@@ -239,7 +242,78 @@ import {
   ];
     const arts = [
    
-
+      {
+        name: "Figure 1",
+       tags: [
+       
+          {
+            name: "Photoshop",
+            color: "green-text-gradient",
+          },
+        
+        ],
+        image: tile,
+      },
+      {
+        name: "Figure 2",
+       tags: [
+       
+          {
+            name: "Photoshop",
+            color: "green-text-gradient",
+          },
+        
+        ],
+        image: wednesday,
+      },
+      {
+        name: "Figure 3",
+       tags: [
+       
+          {
+            name: "Photoshop",
+            color: "green-text-gradient",
+          },
+        
+        ],
+        image: reserv,
+      },
+      {
+        name: "Figure 4",
+       tags: [
+       
+          {
+            name: "Photoshop",
+            color: "green-text-gradient",
+          },
+        
+        ],
+        image: books,
+      },
+      {
+        name: "Figure 5",
+       tags: [
+       
+          {
+            name: "Photoshop",
+            color: "green-text-gradient",
+          },
+        
+        ],
+        image: girl,
+      },
+      {
+        name: "Figure 6",
+       tags: [
+       
+          {
+            name: "Photoshop, Aseprite",
+            color: "green-text-gradient",
+          },
+        
+        ],
+        image: notice,
+      },
     
   ];
   
