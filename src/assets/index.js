@@ -30,7 +30,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import tile from "./tile.png";
-import wednesday from "./wednesday.jpg";
+import adams from "./adams.png";
 import reserv from "./reserv.jpg";
 import books from "./books.png";
 import girl from "./girl.png";
@@ -71,7 +71,7 @@ export {
   jobit,
   tripguide,
   tile,
-  wednesday,
+  adams,
   reserv,
   books,
   girl,

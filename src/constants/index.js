@@ -15,7 +15,7 @@ import {
     jobit,
     tripguide,
     tile,
-    wednesday,
+    adams,
     reserv,
     books,
     girl,
@@ -264,7 +264,7 @@ import {
           },
         
         ],
-        image: wednesday,
+        image: adams,
       },
       {
         name: "Figure 3",
