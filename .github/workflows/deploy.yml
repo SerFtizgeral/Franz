@@ -11,13 +11,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Clear npm cache
+        run: npm cache clean --force
+
       - name: Checkout repo
         uses: actions/checkout@v2
 
-      - name: Setup Node
-        uses: actions/setup-node@v2  # Update to v2 to use Node.js 20
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
         with:
-          node-version: '20'  # Use Node.js 20
+          node-version: '20'
 
       - name: Install dependencies
         run: npm install
@@ -25,11 +28,16 @@ jobs:
       - name: Build project
         run: npm run build
 
+      - name: Deploy to GitHub Pages
+        run: npm run deploy
+        env:
+          CI: true  # Ensure CI environment variable is set for Vite
+
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v2
         with:
           name: production-files
-          path: ./dist
+          path: ./build
 
   deploy:
     name: Deploy
@@ -42,10 +50,10 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: production-files
-          path: ./dist
+          path: ./build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+          publish_dir: ./build
