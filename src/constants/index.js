@@ -20,6 +20,7 @@ import {
     books,
     girl,
     notice,
+    teaser,
     starbucks,
     tesla,
     threejs,
@@ -317,4 +318,22 @@ import {
     
   ];
   
-  export { services, technologies, experiences, testimonials, projects, arts };
+  const video = [
+   
+    {
+      name: "Teaser Video In my thesis game ",
+     tags: [
+     
+        {
+          name: "Photoshop",
+          color: "green-text-gradient",
+        },
+      
+      ],
+      videoSrc: teaser,
+    },
+    
+  
+];
+
+  export { services, technologies, experiences, testimonials, projects, arts, video };

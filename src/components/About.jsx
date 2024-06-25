@@ -51,7 +51,7 @@ const About = () => {
     <motion.p 
     variants={fadeIn("","", 0.1, 1)}
     className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
-    >I am a fresh graduate with a solid understanding of front-end and software development principles, and experience as a technical support engineer. With this role I excel in troubleshooting and providing excellent customer support. I can create functional interfaces focusing on usability and user experience, and my software development knowledge allows me to effectively collaborate on projects. Additionally, I have fundamental skills in design, including creating graphics, designing user interfaces, and producing multimedia content, which enables me to provide creative and comprehensive solutions..
+    >I am a graduate of Computer Science with a solid understanding of front-end and software development principles, and experience as a technical support engineer. With this role I excel in troubleshooting and providing excellent customer support. I can create functional interfaces focusing on usability and user experience, and my software development knowledge allows me to effectively collaborate on projects. Additionally, I have fundamental skills in design, including creating graphics, designing user interfaces, and producing multimedia content, which enables me to provide creative and comprehensive solutions..
    </motion.p>
     <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (

@@ -35,7 +35,7 @@ import reserv from "./reserv.jpg";
 import books from "./books.png";
 import girl from "./girl.png";
 import notice from "./notice.png";
-
+import teaser from "./teaser.mp4";
 
 
 
@@ -76,6 +76,7 @@ export {
   books,
   girl,
   notice,
+  teaser,
  
 
 };
