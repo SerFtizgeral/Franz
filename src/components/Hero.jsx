@@ -43,7 +43,7 @@ const Hero = () => {
             <br className='sm:block hidden' />I am a quick learner and interested in new systems and technologies. I
             am now seeking a new challenge and job opportunity where I can apply my skills and continue to learn and
             grow. With a passion for contributing to the success of a company, I am eager to find a role where I can
-            make a meaningful impact.
+            make a meaningful impact
           </p>
         </div>
       </div>
