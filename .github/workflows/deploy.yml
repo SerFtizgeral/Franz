@@ -70,8 +70,8 @@ jobs:
 
       - name: Set Git config
         run: |
-          git config --global user.email "you@example.com"
-          git config --global user.name "Your Name"
+          git config --global user.email "francisjeevesjulayco@gmail.com"
+          git config --global user.name "SerFtizgeral"
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
