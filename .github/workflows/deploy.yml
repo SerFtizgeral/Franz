@@ -25,24 +25,24 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '20'
+          node-version: '14'  # Adjust Node.js version as needed
 
       - name: Clear npm cache
-        run: npm cache clean --force
+        run: npm cache verify
 
       - name: Install dependencies
         run: npm install
 
-      - name: Fix vite permission
+      - name: Fix Vite permission
         run: chmod +x node_modules/.bin/vite
+
+      - name: Set Git config
+        run: |
+          git config --global user.email "you@example.com"
+          git config --global user.name "Your Name"
 
       - name: Build project
         run: npm run build
-
-      - name: Configure Git identity
-        run: |
-          git config --global user.email "francisjeevesjulayco@gmail.com"
-          git config --global user.name "Franz"
 
       - name: Deploy to GitHub Pages
         run: npm run deploy
@@ -67,6 +67,11 @@ jobs:
         with:
           name: production-files
           path: ./build
+
+      - name: Set Git config
+        run: |
+          git config --global user.email "you@example.com"
+          git config --global user.name "Your Name"
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
