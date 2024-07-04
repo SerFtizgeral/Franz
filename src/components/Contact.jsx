@@ -82,18 +82,24 @@ const Contact = () => {
         >
           <label className='flex flex-col'>
             <span className='text-white font-extrabold text-xl'>Francis Jeeves Julayco <br /></span>
-          
-         
           </label>
           
           <label className='flex flex-col'>
-          <span className='text-white font-medium'>Email: francisjeevesjulayco@gmail.com</span>
-            
+            <span className='text-white font-medium'>Email: francisjeevesjulayco@gmail.com</span>
           </label>
+          
           <label className='flex flex-col'>
-          <span className='text-white font-small'>LinkedIn:  https://www.linkedin.com/in/francis-jeeves-julayco-260a54239/</span>
-            
+            <span className='text-white font-small'>
+              LinkedIn: <a href="https://www.linkedin.com/in/francis-jeeves-julayco-260a54239/" target="_blank" rel="noopener noreferrer" className="custom-link">Francis Jeeves Julayco</a>
+            </span>
           </label>
+          
+          <label className='flex flex-col'>
+            <span className='text-white font-small'>
+              Resume: <a href="https://drive.google.com/drive/folders/1JvJPCmYXjYT5h9NS9q76Me79Vuz3qCiR?usp=sharing" target="_blank" rel="noopener noreferrer" className="custom-link">View My Resume (Click me)</a>
+            </span>
+          </label>
+          
           {/* <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Message</span>
             <textarea
