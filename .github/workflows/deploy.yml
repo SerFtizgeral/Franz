@@ -12,7 +12,7 @@ jobs:
 
     steps:
       - name: Clear GitHub Actions cache
-        uses: actions/cache@v2
+        uses: actions/cache@v3  # Updated to v3
         with:
           path: ~/.npm
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
@@ -20,12 +20,12 @@ jobs:
             ${{ runner.os }}-node-
 
       - name: Checkout repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3  # Updated to v3
 
       - name: Setup Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3  # Updated to v3
         with:
-          node-version: '14'
+          node-version: '16'  # Updated to Node.js 16
 
       - name: Clear npm cache
         run: npm cache verify
@@ -48,7 +48,7 @@ jobs:
         run: ls -R ./dist  # List files in the dist directory
 
       - name: Upload production-ready build files
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v4  # No change, as v4 is the latest for this action
         with:
           name: production-files
           path: ./dist # Ensure this path matches your build output path
