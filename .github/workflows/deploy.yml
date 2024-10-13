@@ -44,6 +44,9 @@ jobs:
       - name: Build project
         run: npm run build
 
+      - name: List files in dist
+        run: ls -R ./dist  # List files in the dist directory
+
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v4
         with:
