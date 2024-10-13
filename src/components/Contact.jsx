@@ -85,17 +85,24 @@ const Contact = () => {
           </label>
           
           <label className='flex flex-col'>
-            <span className='text-white font-medium'>Email: francisjeevesjulayco@gmail.com</span>
-          </label>
+  <span className='text-white font-medium'>
+    Email:&nbsp;
+    <a href="mailto:francisjeevesjulayco@gmail.com" className='custom-link'>
+      francisjeevesjulayco@gmail.com
+    </a>
+  </span>
+</label>
+
+
           
           <label className='flex flex-col'>
-            <span className='text-white font-small'>
+            <span className='text-white font-medium'>
               LinkedIn: <a href="https://www.linkedin.com/in/francis-jeeves-julayco-260a54239/" target="_blank" rel="noopener noreferrer" className="custom-link">Francis Jeeves Julayco</a>
             </span>
           </label>
           
           <label className='flex flex-col'>
-            <span className='text-white font-small'>
+            <span className='text-white font-medium'>
               Resume: <a href="https://drive.google.com/drive/folders/1JvJPCmYXjYT5h9NS9q76Me79Vuz3qCiR?usp=sharing" target="_blank" rel="noopener noreferrer" className="custom-link">View My Resume (Click me)</a>
             </span>
           </label>
